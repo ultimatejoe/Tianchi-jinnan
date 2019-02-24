@@ -5,11 +5,11 @@
 
 
 ### 文件说明：
-1.使用贝叶斯优化，搜索最优工艺参数  
+#### 1.使用贝叶斯优化，搜索最优工艺参数  
 model_evaluate.py # 对每一轮搜索的参数进行收率计算   
 explore_optima.py # 搜索最优工艺参数 
 
-2.对收率进行预测   
+#### 2.对收率进行预测   
 train_data.py  # 整合之前的测试集和训练集 
 model_FuSai.py # 预测复赛测试集 FuSai.csv   
 model_optimize.py # 预测最佳收率的组合 optimize.csv   
